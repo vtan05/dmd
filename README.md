@@ -42,7 +42,7 @@ python post_process.py
 ```bash
 python eval_cdcd.py # beat coverage score, beat hit score, and FAD
 python bas_cdcd.py  # beat align score
-python genre.py     # genre KLD
+python genre.py     # genre KLD (get pretrained model from https://github.com/PeiChunChang/MS-SincResNet)
 ```
 
 ## Acknowledgments

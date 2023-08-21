@@ -1,6 +1,5 @@
 # Motion to Dance Music Generation
-The Official PyTorch Implementation of the paper **"Motion to Dance Music Generation using Latent Diffusion Model"**.  
-Please visit our [**webpage**](https://dmdproject.github.io/) for more details.  
+[**"Motion to Dance Music Generation using Latent Diffusion Model"**](https://dmdproject.github.io/) - Official PyTorch Implementation  
 
 ![teaser](https://github.com/DMDproject/DMDproject.github.io/blob/main/static/images/main_figure_dmd.jpg)
 

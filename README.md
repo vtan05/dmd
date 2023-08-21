@@ -48,4 +48,5 @@ python genre.py     # genre KLD (get pretrained model from https://github.com/Pe
 
 ## Acknowledgments
 
-We would like to thank the following contributors that our code is based on: [Audio-Diffusion](https://github.com/teticio/audio-diffusion/), [EDGE](https://github.com/Stanford-TML/EDGE), [Bailando](https://github.com/lisiyao21/Bailando), [AIST++](https://github.com/google-research/mint), [MS-SincResNet](https://github.com/PeiChunChang/MS-SincResNet).
+We would like to thank [Joel Casimiro](https://sites.google.com/eee.upd.edu.ph/joelcasimiro) for helping in creating our preview image.  
+We would also like to thank the following contributors that our code is based on: [Audio-Diffusion](https://github.com/teticio/audio-diffusion/), [EDGE](https://github.com/Stanford-TML/EDGE), [Bailando](https://github.com/lisiyao21/Bailando), [AIST++](https://github.com/google-research/mint), [MS-SincResNet](https://github.com/PeiChunChang/MS-SincResNet).

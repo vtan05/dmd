@@ -83,11 +83,11 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create dataset of Mel spectrograms from directory of audio files.")
     parser.add_argument("--input_dir", type=str, default=r"/host_data/van/edge_aistpp/train/wavs_sliced/")
-    parser.add_argument("--output_dir", type=str, default="aistpp_64_sorted")
+    parser.add_argument("--output_dir", type=str, default="aistpp_256_sorted")
     parser.add_argument(
         "--resolution",
         type=str,
-        default="64",
+        default="256",
         help="Either square resolution or width,height.",
     )
     parser.add_argument("--hop_length", type=int, default=512)

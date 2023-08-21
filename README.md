@@ -10,6 +10,7 @@ This code was tested on `Ubuntu 20.04.2 LTS` and requires:
 
 * Python 3.8
 * CUDA capable GPU
+* Download [data and models](https://drive.google.com/file/d/1FRZY-RWiSno_yo7MYYzSri5DWEWSGukG/view?usp=sharing)
 
 ```bash
 pip install -r requirements.txt

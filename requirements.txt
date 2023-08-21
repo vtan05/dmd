@@ -1,0 +1,8 @@
+pandas
+datasets
+accelerate==0.20.3
+diffusers==0.18.1
+audiodiffusion
+torchlibrosa
+frechet_audio_distance
+pydub

@@ -90,5 +90,5 @@ def calc_ba_score(motion_dir, music_dir):
 if __name__ == '__main__':
 
     motion_dir = r"/host_data/van/edge_aistpp/test/motions_sliced/"
-    music_dir = r"/host_data/van/edge_aistpp/outputv2/angvel_01/normalized/"
+    music_dir = r"/host_data/van/edge_aistpp/outputv2/all_01/normalized/"
     print(calc_ba_score(motion_dir, music_dir))

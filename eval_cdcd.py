@@ -46,8 +46,8 @@ def main(args):
     if args.gen_audio:
         device = "cuda" if torch.cuda.is_available() else "cpu"
         generator = torch.Generator(device=device)
-        model_id = r"/host_data/van/edge_aistpp/modelsv2/angvel_01"
-        encode_id = r"/host_data/van/edge_aistpp/test/concat/normalized_angvel_test_data_01.pkl"
+        model_id = r"/host_data/van/edge_aistpp/modelsv2/all_01"
+        encode_id = r"/host_data/van/edge_aistpp/test/concat/normalized_all_test_data_01.pkl"
 
     total_cover_score = 0
     total_hit_score = 0
@@ -111,7 +111,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Evaluate Dataset")
     parser.add_argument("--input_dir", type=str, default=r"/host_data/van/edge_aistpp/test/wavs_sliced/")
-    parser.add_argument("--output_dir", type=str, default=r"/host_data/van/edge_aistpp/outputv2/angvel_01/normalized/") 
+    parser.add_argument("--output_dir", type=str, default=r"/host_data/van/edge_aistpp/outputv2/all_01/normalized/") 
     parser.add_argument("--gen_audio", type=bool, default=False)
     parser.add_argument("--outpaint", type=bool, default=False)
     args = parser.parse_args()

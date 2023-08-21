@@ -15,7 +15,7 @@ def main(args):
     audio_files = sorted(glob.glob(os.path.join(args.input_dir, "*.wav")))
     for audio_file in tqdm(audio_files):
         audio_file = (os.path.basename(audio_file).split('/')[-1][:-4])
-        sound = AudioSegment.from_file('{}{}.wav'.format(args.input_dir, audio_file), format="wav", frame_rate=44100)
+        sound = AudioSegment.from_file('{}{}.wav'.format(args.input_dir, audio_file), format="wav", frame_rate=22050)
         five_seconds = 5 * 1000
         first_5_seconds = sound[:five_seconds]
         normalized_sound = match_target_amplitude(first_5_seconds, -20.0)

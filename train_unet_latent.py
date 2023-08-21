@@ -386,7 +386,7 @@ if __name__ == "__main__":
         default="aistpp_256_sorted",
         help="A folder containing the training data.",
     )
-    parser.add_argument("--output_dir", type=str, default=r"/host_data/van/edge_aistpp/modelsv2/orn_01")
+    parser.add_argument("--output_dir", type=str, default=r"/host_data/van/edge_aistpp/modelsv2/all_01")
     parser.add_argument("--overwrite_output_dir", type=bool, default=False)
     parser.add_argument("--cache_dir", type=str, default=None)
     parser.add_argument("--train_batch_size", type=int, default=8)
@@ -441,7 +441,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--encodings",
         type=str,
-        default=r"/host_data/van/edge_aistpp/encoding/normalized_orn_train_data_01.pkl",
+        default=r"/host_data/van/edge_aistpp/encoding/normalized_all_train_data_01.pkl",
         help="picked dictionary mapping audio_file to encoding",
     )
 

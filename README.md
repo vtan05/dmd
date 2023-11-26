@@ -46,6 +46,27 @@ python bas_cdcd.py  # beat align score
 python genre.py     # genre KLD (get pretrained model from https://github.com/PeiChunChang/MS-SincResNet)
 ```
 
+## Attribution
+Please include the following citations in any preprints and publications that use this repository.
+```
+@inproceedings{10.1145/3610543.3626164,
+author = {Tan, Vanessa and Nam, Junghyun and Nam, Juhan and Noh, Junyong},
+title = {Motion to Dance Music Generation Using Latent Diffusion Model},
+year = {2023},
+isbn = {9798400703140},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3610543.3626164},
+doi = {10.1145/3610543.3626164},
+booktitle = {SIGGRAPH Asia 2023 Technical Communications},
+articleno = {5},
+numpages = {4},
+keywords = {latent diffusion model, 3D motion to music, music generation},
+location = {, Sydney, NSW, Australia, },
+series = {SA Technical Communications '23}
+}
+```
+
 ## Acknowledgments
 
 We would like to thank [Joel Casimiro](https://sites.google.com/eee.upd.edu.ph/joelcasimiro) for helping in creating our preview image.  

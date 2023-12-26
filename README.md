@@ -15,6 +15,8 @@ This code was tested on `Ubuntu 20.04.2 LTS` and requires:
 ```bash
 pip install -r requirements.txt
 ```
+## Dataset  
+The dataset used was the [AIST++ dataset](https://google.github.io/aistplusplus_dataset/download.html). The segmented music data is also provided [here](https://drive.google.com/file/d/1rtEYKFMMC8y5EFkiCAC0GEP6AGOWDbeM/view?usp=drive_link).  
 
 ## Preprocess data
 ### Generate mel spectrograms
